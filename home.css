@@ -1,0 +1,119 @@
+*{padding: 0;
+    margin: 0;
+    }
+    body{
+        
+       
+        
+       
+    }
+    header{
+
+        
+        background-size: cover;
+        width: 100%; 
+        color: #fff;
+        height: 100vh;   
+          background-image: url(a\ copy.jpg);
+          background-position: center;
+    }
+    #header{ 
+padding: 1rem;
+       
+        
+        
+          display: flex;
+          justify-content:space-between;
+        align-items: center;
+    }
+    #nav ul {
+        flex-direction: row-reverse;
+        display: flex;
+     gap: 2rem;
+   
+    }
+#nav ul li{  
+ list-style: none;
+
+           }
+
+
+
+ #nav ul li a:hover {
+
+    background: linear-gradient(to left, #246fd0, #a32222);
+        transform: scale(1.05);
+        background-color: #246fd0;
+        color: #fff;
+    
+        border-radius: 10px;
+    
+   
+           }
+   #nav ul li a{
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-decoration: none;
+font-size: 1.5rem;
+ color: #fff;
+   }
+#foot{
+    background-color: rgb(13, 46, 77);
+    width: 100%;
+    height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 1rem;
+}
+#foot a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+
+}
+#back{
+    border-radius: 1rem;
+    position: absolute;
+    width: 100%;
+    
+}
+h3{
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+#logo{
+
+
+}
+#vv{
+    
+
+}
+#vv ul{
+    flex-direction: row-reverse;
+        display: flex;
+        gap: 2rem;
+
+}
+#vv ul li{
+list-style: none;
+}
+#vv ul li a{
+
+    border-radius: 5px;
+    padding: 6px 15px ;
+    text-decoration: none;
+        font-size: 1.5rem;
+        color: #ffffff;
+}
+#vv ul li a:hover{
+    background: linear-gradient(to left,#246fd0,#a32222);
+        transform: scale(1.05);
+background-color: #246fd0;
+color: #fff;
+
+border-radius: 10px;
+}
